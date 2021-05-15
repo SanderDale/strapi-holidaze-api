@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "enquiries",
+  "info": {
+    "name": "enquiries"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "from": {
+      "type": "date",
+      "required": true
+    },
+    "to": {
+      "type": "date",
+      "required": true
+    },
+    "hotel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
